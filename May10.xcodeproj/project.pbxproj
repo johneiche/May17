@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE97E775155B005D00DFEF4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE97E774155B005D00DFEF4E /* UIKit.framework */; };
+		BE97E777155B005D00DFEF4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE97E776155B005D00DFEF4E /* Foundation.framework */; };
+		BE97E779155B005D00DFEF4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE97E778155B005D00DFEF4E /* CoreGraphics.framework */; };
+		BE97E77F155B005D00DFEF4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE97E77D155B005D00DFEF4E /* InfoPlist.strings */; };
+		BE97E781155B005D00DFEF4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE97E780155B005D00DFEF4E /* main.m */; };
+		BE97E785155B005D00DFEF4E /* May10AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE97E784155B005D00DFEF4E /* May10AppDelegate.m */; };
+		BE97E790155B02EF00DFEF4E /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE97E78F155B02EF00DFEF4E /* ModalViewController.m */; };
+		BE97E793155B03A300DFEF4E /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = BE97E792155B03A300DFEF4E /* View.m */; };
+		BE97E796155B059500DFEF4E /* ModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE97E795155B059500DFEF4E /* ModalView.m */; };
+		BE97E799155B0B8100DFEF4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE97E798155B0B8100DFEF4E /* ViewController.m */; };
+		BE97E7A8155B32A300DFEF4E /* cover_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE97E79E155B32A300DFEF4E /* cover_0.jpg */; };
+		BE97E7A9155B32A300DFEF4E /* cover_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE97E79F155B32A300DFEF4E /* cover_1.jpg */; };
+		BE97E7AA155B32A300DFEF4E /* cover_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE97E7A0155B32A300DFEF4E /* cover_2.jpg */; };
+		BE97E7AB155B32A300DFEF4E /* cover_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE97E7A1155B32A300DFEF4E /* cover_3.jpg */; };
+		BE97E7AC155B32A300DFEF4E /* cover_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE97E7A2155B32A300DFEF4E /* cover_4.jpg */; };
+		BE97E7AD155B32A300DFEF4E /* cover_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE97E7A3155B32A300DFEF4E /* cover_5.jpg */; };
+		BE97E7AE155B32A300DFEF4E /* cover_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE97E7A4155B32A300DFEF4E /* cover_6.jpg */; };
+		BE97E7AF155B32A300DFEF4E /* cover_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE97E7A5155B32A300DFEF4E /* cover_7.jpg */; };
+		BE97E7B0155B32A300DFEF4E /* cover_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE97E7A6155B32A300DFEF4E /* cover_8.jpg */; };
+		BE97E7B1155B32A300DFEF4E /* cover_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE97E7A7155B32A300DFEF4E /* cover_9.jpg */; };
+		BE97E83915618BE300DFEF4E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE97E83815618BE200DFEF4E /* AudioToolbox.framework */; };
+		BE97E83B1565742C00DFEF4E /* Cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE97E83A1565742C00DFEF4E /* Cat.mp3 */; };
+		BE97E84315657EE600DFEF4E /* Chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE97E83C15657EDD00DFEF4E /* Chicken.mp3 */; };
+		BE97E84415657EE600DFEF4E /* Cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE97E83D15657EDF00DFEF4E /* Cow.mp3 */; };
+		BE97E84515657EE600DFEF4E /* Dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE97E83E15657EE000DFEF4E /* Dog.mp3 */; };
+		BE97E84615657EE600DFEF4E /* Horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE97E83F15657EE000DFEF4E /* Horse.mp3 */; };
+		BE97E84715657EE600DFEF4E /* Lamb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE97E84015657EE200DFEF4E /* Lamb.mp3 */; };
+		BE97E84815657EE600DFEF4E /* Pig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE97E84115657EE400DFEF4E /* Pig.mp3 */; };
+		BE97E84915657EE600DFEF4E /* Wolf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE97E84215657EE600DFEF4E /* Wolf.mp3 */; };
+		BEE701A315658D78000BA7EC /* Duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BEE701A115658D78000BA7EC /* Duck.mp3 */; };
+		BEE701A415658D78000BA7EC /* Frog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BEE701A215658D78000BA7EC /* Frog.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE97E770155B005D00DFEF4E /* May10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = May10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE97E774155B005D00DFEF4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE97E776155B005D00DFEF4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE97E778155B005D00DFEF4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE97E77C155B005D00DFEF4E /* May10-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "May10-Info.plist"; sourceTree = "<group>"; };
+		BE97E77E155B005D00DFEF4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE97E780155B005D00DFEF4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE97E782155B005D00DFEF4E /* May10-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "May10-Prefix.pch"; sourceTree = "<group>"; };
+		BE97E783155B005D00DFEF4E /* May10AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = May10AppDelegate.h; sourceTree = "<group>"; };
+		BE97E784155B005D00DFEF4E /* May10AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = May10AppDelegate.m; sourceTree = "<group>"; };
+		BE97E78E155B02EF00DFEF4E /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		BE97E78F155B02EF00DFEF4E /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		BE97E791155B03A300DFEF4E /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		BE97E792155B03A300DFEF4E /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		BE97E794155B059500DFEF4E /* ModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalView.h; sourceTree = "<group>"; };
+		BE97E795155B059500DFEF4E /* ModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalView.m; sourceTree = "<group>"; };
+		BE97E797155B0B8100DFEF4E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE97E798155B0B8100DFEF4E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE97E79E155B32A300DFEF4E /* cover_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_0.jpg; sourceTree = "<group>"; };
+		BE97E79F155B32A300DFEF4E /* cover_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_1.jpg; sourceTree = "<group>"; };
+		BE97E7A0155B32A300DFEF4E /* cover_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_2.jpg; sourceTree = "<group>"; };
+		BE97E7A1155B32A300DFEF4E /* cover_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_3.jpg; sourceTree = "<group>"; };
+		BE97E7A2155B32A300DFEF4E /* cover_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_4.jpg; sourceTree = "<group>"; };
+		BE97E7A3155B32A300DFEF4E /* cover_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_5.jpg; sourceTree = "<group>"; };
+		BE97E7A4155B32A300DFEF4E /* cover_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_6.jpg; sourceTree = "<group>"; };
+		BE97E7A5155B32A300DFEF4E /* cover_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_7.jpg; sourceTree = "<group>"; };
+		BE97E7A6155B32A300DFEF4E /* cover_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_8.jpg; sourceTree = "<group>"; };
+		BE97E7A7155B32A300DFEF4E /* cover_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_9.jpg; sourceTree = "<group>"; };
+		BE97E83815618BE200DFEF4E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BE97E83A1565742C00DFEF4E /* Cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cat.mp3; sourceTree = "<group>"; };
+		BE97E83C15657EDD00DFEF4E /* Chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chicken.mp3; sourceTree = "<group>"; };
+		BE97E83D15657EDF00DFEF4E /* Cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cow.mp3; sourceTree = "<group>"; };
+		BE97E83E15657EE000DFEF4E /* Dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dog.mp3; sourceTree = "<group>"; };
+		BE97E83F15657EE000DFEF4E /* Horse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Horse.mp3; sourceTree = "<group>"; };
+		BE97E84015657EE200DFEF4E /* Lamb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lamb.mp3; sourceTree = "<group>"; };
+		BE97E84115657EE400DFEF4E /* Pig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pig.mp3; sourceTree = "<group>"; };
+		BE97E84215657EE600DFEF4E /* Wolf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wolf.mp3; sourceTree = "<group>"; };
+		BEE701A115658D78000BA7EC /* Duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Duck.mp3; sourceTree = "<group>"; };
+		BEE701A215658D78000BA7EC /* Frog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Frog.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE97E76D155B005D00DFEF4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE97E83915618BE300DFEF4E /* AudioToolbox.framework in Frameworks */,
+				BE97E775155B005D00DFEF4E /* UIKit.framework in Frameworks */,
+				BE97E777155B005D00DFEF4E /* Foundation.framework in Frameworks */,
+				BE97E779155B005D00DFEF4E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE97E765155B005D00DFEF4E = {
+			isa = PBXGroup;
+			children = (
+				BE97E83815618BE200DFEF4E /* AudioToolbox.framework */,
+				BE97E77A155B005D00DFEF4E /* May10 */,
+				BE97E773155B005D00DFEF4E /* Frameworks */,
+				BE97E771155B005D00DFEF4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE97E771155B005D00DFEF4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE97E770155B005D00DFEF4E /* May10.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE97E773155B005D00DFEF4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE97E774155B005D00DFEF4E /* UIKit.framework */,
+				BE97E776155B005D00DFEF4E /* Foundation.framework */,
+				BE97E778155B005D00DFEF4E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE97E77A155B005D00DFEF4E /* May10 */ = {
+			isa = PBXGroup;
+			children = (
+				BE97E783155B005D00DFEF4E /* May10AppDelegate.h */,
+				BE97E784155B005D00DFEF4E /* May10AppDelegate.m */,
+				BE97E797155B0B8100DFEF4E /* ViewController.h */,
+				BE97E798155B0B8100DFEF4E /* ViewController.m */,
+				BE97E78E155B02EF00DFEF4E /* ModalViewController.h */,
+				BE97E78F155B02EF00DFEF4E /* ModalViewController.m */,
+				BE97E794155B059500DFEF4E /* ModalView.h */,
+				BE97E795155B059500DFEF4E /* ModalView.m */,
+				BE97E791155B03A300DFEF4E /* View.h */,
+				BE97E792155B03A300DFEF4E /* View.m */,
+				BE97E77B155B005D00DFEF4E /* Supporting Files */,
+			);
+			path = May10;
+			sourceTree = "<group>";
+		};
+		BE97E77B155B005D00DFEF4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE701A115658D78000BA7EC /* Duck.mp3 */,
+				BEE701A215658D78000BA7EC /* Frog.mp3 */,
+				BE97E83C15657EDD00DFEF4E /* Chicken.mp3 */,
+				BE97E83D15657EDF00DFEF4E /* Cow.mp3 */,
+				BE97E83E15657EE000DFEF4E /* Dog.mp3 */,
+				BE97E83F15657EE000DFEF4E /* Horse.mp3 */,
+				BE97E84015657EE200DFEF4E /* Lamb.mp3 */,
+				BE97E84115657EE400DFEF4E /* Pig.mp3 */,
+				BE97E84215657EE600DFEF4E /* Wolf.mp3 */,
+				BE97E83A1565742C00DFEF4E /* Cat.mp3 */,
+				BE97E79E155B32A300DFEF4E /* cover_0.jpg */,
+				BE97E79F155B32A300DFEF4E /* cover_1.jpg */,
+				BE97E7A0155B32A300DFEF4E /* cover_2.jpg */,
+				BE97E7A1155B32A300DFEF4E /* cover_3.jpg */,
+				BE97E7A2155B32A300DFEF4E /* cover_4.jpg */,
+				BE97E7A3155B32A300DFEF4E /* cover_5.jpg */,
+				BE97E7A4155B32A300DFEF4E /* cover_6.jpg */,
+				BE97E7A5155B32A300DFEF4E /* cover_7.jpg */,
+				BE97E7A6155B32A300DFEF4E /* cover_8.jpg */,
+				BE97E7A7155B32A300DFEF4E /* cover_9.jpg */,
+				BE97E77C155B005D00DFEF4E /* May10-Info.plist */,
+				BE97E77D155B005D00DFEF4E /* InfoPlist.strings */,
+				BE97E780155B005D00DFEF4E /* main.m */,
+				BE97E782155B005D00DFEF4E /* May10-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE97E76F155B005D00DFEF4E /* May10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE97E788155B005D00DFEF4E /* Build configuration list for PBXNativeTarget "May10" */;
+			buildPhases = (
+				BE97E76C155B005D00DFEF4E /* Sources */,
+				BE97E76D155B005D00DFEF4E /* Frameworks */,
+				BE97E76E155B005D00DFEF4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = May10;
+			productName = May10;
+			productReference = BE97E770155B005D00DFEF4E /* May10.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE97E767155B005D00DFEF4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = May10;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BE97E76A155B005D00DFEF4E /* Build configuration list for PBXProject "May10" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE97E765155B005D00DFEF4E;
+			productRefGroup = BE97E771155B005D00DFEF4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE97E76F155B005D00DFEF4E /* May10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE97E76E155B005D00DFEF4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE97E77F155B005D00DFEF4E /* InfoPlist.strings in Resources */,
+				BE97E7A8155B32A300DFEF4E /* cover_0.jpg in Resources */,
+				BE97E7A9155B32A300DFEF4E /* cover_1.jpg in Resources */,
+				BE97E7AA155B32A300DFEF4E /* cover_2.jpg in Resources */,
+				BE97E7AB155B32A300DFEF4E /* cover_3.jpg in Resources */,
+				BE97E7AC155B32A300DFEF4E /* cover_4.jpg in Resources */,
+				BE97E7AD155B32A300DFEF4E /* cover_5.jpg in Resources */,
+				BE97E7AE155B32A300DFEF4E /* cover_6.jpg in Resources */,
+				BE97E7AF155B32A300DFEF4E /* cover_7.jpg in Resources */,
+				BE97E7B0155B32A300DFEF4E /* cover_8.jpg in Resources */,
+				BE97E7B1155B32A300DFEF4E /* cover_9.jpg in Resources */,
+				BE97E83B1565742C00DFEF4E /* Cat.mp3 in Resources */,
+				BE97E84315657EE600DFEF4E /* Chicken.mp3 in Resources */,
+				BE97E84415657EE600DFEF4E /* Cow.mp3 in Resources */,
+				BE97E84515657EE600DFEF4E /* Dog.mp3 in Resources */,
+				BE97E84615657EE600DFEF4E /* Horse.mp3 in Resources */,
+				BE97E84715657EE600DFEF4E /* Lamb.mp3 in Resources */,
+				BE97E84815657EE600DFEF4E /* Pig.mp3 in Resources */,
+				BE97E84915657EE600DFEF4E /* Wolf.mp3 in Resources */,
+				BEE701A315658D78000BA7EC /* Duck.mp3 in Resources */,
+				BEE701A415658D78000BA7EC /* Frog.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE97E76C155B005D00DFEF4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE97E781155B005D00DFEF4E /* main.m in Sources */,
+				BE97E785155B005D00DFEF4E /* May10AppDelegate.m in Sources */,
+				BE97E790155B02EF00DFEF4E /* ModalViewController.m in Sources */,
+				BE97E793155B03A300DFEF4E /* View.m in Sources */,
+				BE97E796155B059500DFEF4E /* ModalView.m in Sources */,
+				BE97E799155B0B8100DFEF4E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE97E77D155B005D00DFEF4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE97E77E155B005D00DFEF4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE97E786155B005D00DFEF4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE97E787155B005D00DFEF4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE97E789155B005D00DFEF4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "May10/May10-Prefix.pch";
+				INFOPLIST_FILE = "May10/May10-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE97E78A155B005D00DFEF4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "May10/May10-Prefix.pch";
+				INFOPLIST_FILE = "May10/May10-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE97E76A155B005D00DFEF4E /* Build configuration list for PBXProject "May10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE97E786155B005D00DFEF4E /* Debug */,
+				BE97E787155B005D00DFEF4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE97E788155B005D00DFEF4E /* Build configuration list for PBXNativeTarget "May10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE97E789155B005D00DFEF4E /* Debug */,
+				BE97E78A155B005D00DFEF4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE97E767155B005D00DFEF4E /* Project object */;
+}
